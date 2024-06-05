@@ -7,18 +7,127 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E1B5BBD2BF2E1C6004A4015 /* TMDBSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4E1B5BBC2BF2E1C6004A4015 /* TMDBSwift */; };
+		4E1ED8532BED601A004DE7D7 /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1ED8522BED601A004DE7D7 /* SignInEmailView.swift */; };
+		4E1ED8552BED642C004DE7D7 /* SignUpEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1ED8542BED642C004DE7D7 /* SignUpEmailView.swift */; };
+		4E1ED8572BED679C004DE7D7 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1ED8562BED679C004DE7D7 /* AuthenticationManager.swift */; };
+		4E1ED85B2BED7314004DE7D7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E1ED85A2BED7314004DE7D7 /* GoogleService-Info.plist */; };
+		4E1ED85F2BED8502004DE7D7 /* Shows_MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1ED85E2BED8502004DE7D7 /* Shows_MainView.swift */; };
+		4E1ED8632BED89E6004DE7D7 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1ED8622BED89E6004DE7D7 /* AuthenticationViewModel.swift */; };
+		4E1ED86D2BEDDA21004DE7D7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1ED86C2BEDDA21004DE7D7 /* SettingsView.swift */; };
+		4E1ED8702BEDEA43004DE7D7 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1ED86F2BEDEA43004DE7D7 /* MainTabView.swift */; };
+		4E35A7592C0A8C0B0080D329 /* Quizzes_MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35A7582C0A8C0B0080D329 /* Quizzes_MainView.swift */; };
+		4E35A75B2C0AA4B90080D329 /* Games_FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35A75A2C0AA4B90080D329 /* Games_FooterView.swift */; };
+		4E35A75D2C0AB6610080D329 /* Games_HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35A75C2C0AB6610080D329 /* Games_HeaderView.swift */; };
+		4E35A7672C0AC34D0080D329 /* RealiteaseGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35A7662C0AC34D0080D329 /* RealiteaseGameView.swift */; };
+		4E35A7692C0AC3AA0080D329 /* RealiteaseCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35A7682C0AC3AA0080D329 /* RealiteaseCoverView.swift */; };
+		4E35A76D2C0B897C0080D329 /* RealiteaseWinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35A76C2C0B897C0080D329 /* RealiteaseWinnerView.swift */; };
+		4E35A76F2C0B89940080D329 /* RealiteaseLoserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35A76E2C0B89940080D329 /* RealiteaseLoserView.swift */; };
+		4E35A7712C0B9DDB0080D329 /* Realitease_FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35A7702C0B9DDB0080D329 /* Realitease_FirestoreService.swift */; };
+		4E35A7732C0B9E040080D329 /* Realitease_GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35A7722C0B9E040080D329 /* Realitease_GameLogic.swift */; };
+		4E35A7772C0BA0EB0080D329 /* RealiteaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35A7762C0BA0EB0080D329 /* RealiteaseManager.swift */; };
 		4E3C97502BED4A3000CC6354 /* TRR_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C974F2BED4A3000CC6354 /* TRR_ProjectApp.swift */; };
 		4E3C97522BED4A3000CC6354 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C97512BED4A3000CC6354 /* ContentView.swift */; };
 		4E3C97542BED4A3200CC6354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C97532BED4A3200CC6354 /* Assets.xcassets */; };
 		4E3C97572BED4A3200CC6354 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C97562BED4A3200CC6354 /* Preview Assets.xcassets */; };
+		4E3C97612BED4E9B00CC6354 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4E3C97602BED4E9B00CC6354 /* FirebaseAnalytics */; };
+		4E3C97632BED4E9B00CC6354 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4E3C97622BED4E9B00CC6354 /* FirebaseAnalyticsSwift */; };
+		4E3C97652BED4E9B00CC6354 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4E3C97642BED4E9B00CC6354 /* FirebaseAuth */; };
+		4E3C97672BED4E9B00CC6354 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4E3C97662BED4E9B00CC6354 /* FirebaseFirestore */; };
+		4E3C97692BED4E9B00CC6354 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 4E3C97682BED4E9B00CC6354 /* FirebaseStorage */; };
+		4E3C976C2BED534B00CC6354 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C976B2BED534B00CC6354 /* AuthenticationView.swift */; };
+		4E3C97812BED57DE00CC6354 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C976F2BED57DD00CC6354 /* Poppins-LightItalic.ttf */; };
+		4E3C97822BED57DE00CC6354 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C97702BED57DD00CC6354 /* Poppins-MediumItalic.ttf */; };
+		4E3C97832BED57DE00CC6354 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C97712BED57DD00CC6354 /* Poppins-Bold.ttf */; };
+		4E3C97842BED57DE00CC6354 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C97722BED57DD00CC6354 /* Poppins-Light.ttf */; };
+		4E3C97852BED57DE00CC6354 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C97732BED57DD00CC6354 /* Poppins-ExtraLight.ttf */; };
+		4E3C97862BED57DE00CC6354 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C97742BED57DD00CC6354 /* Poppins-ExtraLightItalic.ttf */; };
+		4E3C97872BED57DE00CC6354 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C97752BED57DD00CC6354 /* Poppins-Black.ttf */; };
+		4E3C97882BED57DE00CC6354 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C97762BED57DD00CC6354 /* Poppins-Italic.ttf */; };
+		4E3C97892BED57DE00CC6354 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C97772BED57DD00CC6354 /* Poppins-Medium.ttf */; };
+		4E3C978A2BED57DE00CC6354 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C97782BED57DD00CC6354 /* Poppins-BoldItalic.ttf */; };
+		4E3C978B2BED57DE00CC6354 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C97792BED57DD00CC6354 /* Poppins-SemiBoldItalic.ttf */; };
+		4E3C978C2BED57DE00CC6354 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C977A2BED57DD00CC6354 /* Poppins-ThinItalic.ttf */; };
+		4E3C978D2BED57DE00CC6354 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C977B2BED57DE00CC6354 /* Poppins-BlackItalic.ttf */; };
+		4E3C978E2BED57DE00CC6354 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C977C2BED57DE00CC6354 /* Poppins-ExtraBold.ttf */; };
+		4E3C978F2BED57DE00CC6354 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C977D2BED57DE00CC6354 /* Poppins-SemiBold.ttf */; };
+		4E3C97902BED57DE00CC6354 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C977E2BED57DE00CC6354 /* Poppins-ExtraBoldItalic.ttf */; };
+		4E3C97912BED57DE00CC6354 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C977F2BED57DE00CC6354 /* Poppins-Regular.ttf */; };
+		4E3C97922BED57DE00CC6354 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C97802BED57DE00CC6354 /* Poppins-Thin.ttf */; };
+		4E63CE132BEE822700A6508B /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 4E63CE122BEE822700A6508B /* FirebaseFirestoreCombine-Community */; };
+		4E63CE152BEE822700A6508B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4E63CE142BEE822700A6508B /* FirebaseFirestoreSwift */; };
+		4E73DD3A2BFBDEC1004F68A7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E73DD392BFBDEC1004F68A7 /* Utils.swift */; };
+		4E73DD3D2BFBED55004F68A7 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E73DD3C2BFBED55004F68A7 /* APIService.swift */; };
+		4E73DD3F2BFBEDA4004F68A7 /* TVShowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E73DD3E2BFBEDA4004F68A7 /* TVShowModel.swift */; };
+		4E73DD412BFBEDC0004F68A7 /* ShowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E73DD402BFBEDC0004F68A7 /* ShowViewModel.swift */; };
+		4E73DD432BFBEDD0004F68A7 /* ShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E73DD422BFBEDD0004F68A7 /* ShowView.swift */; };
+		4E73DD452BFBFB03004F68A7 /* TMDbListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E73DD442BFBFB03004F68A7 /* TMDbListModel.swift */; };
+		4E73DD472BFBFB2A004F68A7 /* TMDbListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E73DD462BFBFB2A004F68A7 /* TMDbListViewModel.swift */; };
+		4E932ADF2BFD6C8D009D82FF /* Games_MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E932ADE2BFD6C8D009D82FF /* Games_MainView.swift */; };
+		4E932AE02BFD7D22009D82FF /* Boldstrom.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C97942BED5C6800CC6354 /* Boldstrom.otf */; };
+		4EAFCD1E2BF185F000A1DB49 /* SignUpEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAFCD1D2BF185F000A1DB49 /* SignUpEmailViewModel.swift */; };
+		4EAFCD202BF1B0CC00A1DB49 /* ContinueSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAFCD1F2BF1B0CC00A1DB49 /* ContinueSignUpView.swift */; };
+		4EB18EC12BEE8F9600252980 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB18EC02BEE8F9600252980 /* UserManager.swift */; };
+		4ED1DBFE2BFE75C600EE3D0A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED1DBFD2BFE75C600EE3D0A /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E1ED8522BED601A004DE7D7 /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
+		4E1ED8542BED642C004DE7D7 /* SignUpEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpEmailView.swift; sourceTree = "<group>"; };
+		4E1ED8562BED679C004DE7D7 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		4E1ED85A2BED7314004DE7D7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4E1ED85E2BED8502004DE7D7 /* Shows_MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shows_MainView.swift; sourceTree = "<group>"; };
+		4E1ED8622BED89E6004DE7D7 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		4E1ED86C2BEDDA21004DE7D7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		4E1ED86F2BEDEA43004DE7D7 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		4E35A7582C0A8C0B0080D329 /* Quizzes_MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quizzes_MainView.swift; sourceTree = "<group>"; };
+		4E35A75A2C0AA4B90080D329 /* Games_FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games_FooterView.swift; sourceTree = "<group>"; };
+		4E35A75C2C0AB6610080D329 /* Games_HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games_HeaderView.swift; sourceTree = "<group>"; };
+		4E35A7662C0AC34D0080D329 /* RealiteaseGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealiteaseGameView.swift; sourceTree = "<group>"; };
+		4E35A7682C0AC3AA0080D329 /* RealiteaseCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealiteaseCoverView.swift; sourceTree = "<group>"; };
+		4E35A76C2C0B897C0080D329 /* RealiteaseWinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealiteaseWinnerView.swift; sourceTree = "<group>"; };
+		4E35A76E2C0B89940080D329 /* RealiteaseLoserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealiteaseLoserView.swift; sourceTree = "<group>"; };
+		4E35A7702C0B9DDB0080D329 /* Realitease_FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realitease_FirestoreService.swift; sourceTree = "<group>"; };
+		4E35A7722C0B9E040080D329 /* Realitease_GameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realitease_GameLogic.swift; sourceTree = "<group>"; };
+		4E35A7762C0BA0EB0080D329 /* RealiteaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealiteaseManager.swift; sourceTree = "<group>"; };
 		4E3C974C2BED4A3000CC6354 /* TRR-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TRR-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E3C974F2BED4A3000CC6354 /* TRR_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRR_ProjectApp.swift; sourceTree = "<group>"; };
 		4E3C97512BED4A3000CC6354 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4E3C97532BED4A3200CC6354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E3C97562BED4A3200CC6354 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E3C976B2BED534B00CC6354 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		4E3C976F2BED57DD00CC6354 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		4E3C97702BED57DD00CC6354 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		4E3C97712BED57DD00CC6354 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		4E3C97722BED57DD00CC6354 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		4E3C97732BED57DD00CC6354 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		4E3C97742BED57DD00CC6354 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		4E3C97752BED57DD00CC6354 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		4E3C97762BED57DD00CC6354 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		4E3C97772BED57DD00CC6354 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		4E3C97782BED57DD00CC6354 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4E3C97792BED57DD00CC6354 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		4E3C977A2BED57DD00CC6354 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		4E3C977B2BED57DE00CC6354 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4E3C977C2BED57DE00CC6354 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4E3C977D2BED57DE00CC6354 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		4E3C977E2BED57DE00CC6354 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		4E3C977F2BED57DE00CC6354 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		4E3C97802BED57DE00CC6354 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		4E3C97932BED57EA00CC6354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4E3C97942BED5C6800CC6354 /* Boldstrom.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Boldstrom.otf; sourceTree = "<group>"; };
+		4E73DD392BFBDEC1004F68A7 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		4E73DD3C2BFBED55004F68A7 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		4E73DD3E2BFBEDA4004F68A7 /* TVShowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowModel.swift; sourceTree = "<group>"; };
+		4E73DD402BFBEDC0004F68A7 /* ShowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewModel.swift; sourceTree = "<group>"; };
+		4E73DD422BFBEDD0004F68A7 /* ShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowView.swift; sourceTree = "<group>"; };
+		4E73DD442BFBFB03004F68A7 /* TMDbListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDbListModel.swift; sourceTree = "<group>"; };
+		4E73DD462BFBFB2A004F68A7 /* TMDbListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDbListViewModel.swift; sourceTree = "<group>"; };
+		4E932ADE2BFD6C8D009D82FF /* Games_MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games_MainView.swift; sourceTree = "<group>"; };
+		4EAFCD1D2BF185F000A1DB49 /* SignUpEmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpEmailViewModel.swift; sourceTree = "<group>"; };
+		4EAFCD1F2BF1B0CC00A1DB49 /* ContinueSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueSignUpView.swift; sourceTree = "<group>"; };
+		4EB18EC02BEE8F9600252980 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		4ED1DBFD2BFE75C600EE3D0A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +135,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3C97632BED4E9B00CC6354 /* FirebaseAnalyticsSwift in Frameworks */,
+				4E3C97672BED4E9B00CC6354 /* FirebaseFirestore in Frameworks */,
+				4E3C97652BED4E9B00CC6354 /* FirebaseAuth in Frameworks */,
+				4E63CE152BEE822700A6508B /* FirebaseFirestoreSwift in Frameworks */,
+				4E63CE132BEE822700A6508B /* FirebaseFirestoreCombine-Community in Frameworks */,
+				4E1B5BBD2BF2E1C6004A4015 /* TMDBSwift in Frameworks */,
+				4E3C97692BED4E9B00CC6354 /* FirebaseStorage in Frameworks */,
+				4E3C97612BED4E9B00CC6354 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E1D60722BFD5F8300C10659 /* SignUpWithEmail */ = {
+			isa = PBXGroup;
+			children = (
+				4E1ED8542BED642C004DE7D7 /* SignUpEmailView.swift */,
+				4EAFCD1D2BF185F000A1DB49 /* SignUpEmailViewModel.swift */,
+			);
+			path = SignUpWithEmail;
+			sourceTree = "<group>";
+		};
+		4E1ED86E2BEDEA24004DE7D7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4E932ADE2BFD6C8D009D82FF /* Games_MainView.swift */,
+				4E35A75E2C0ABB290080D329 /* RealiTEASE */,
+				4E1ED86F2BEDEA43004DE7D7 /* MainTabView.swift */,
+				4E1ED85E2BED8502004DE7D7 /* Shows_MainView.swift */,
+				4E35A7582C0A8C0B0080D329 /* Quizzes_MainView.swift */,
+				4E35A75A2C0AA4B90080D329 /* Games_FooterView.swift */,
+				4E35A75C2C0AB6610080D329 /* Games_HeaderView.swift */,
+				4EB18EBD2BEE840400252980 /* Profile */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4E35A75E2C0ABB290080D329 /* RealiTEASE */ = {
+			isa = PBXGroup;
+			children = (
+				4E35A7762C0BA0EB0080D329 /* RealiteaseManager.swift */,
+				4E35A7722C0B9E040080D329 /* Realitease_GameLogic.swift */,
+				4E35A7702C0B9DDB0080D329 /* Realitease_FirestoreService.swift */,
+				4E35A7782C0BA2360080D329 /* Views */,
+			);
+			path = RealiTEASE;
+			sourceTree = "<group>";
+		};
+		4E35A7782C0BA2360080D329 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E35A7662C0AC34D0080D329 /* RealiteaseGameView.swift */,
+				4E35A7682C0AC3AA0080D329 /* RealiteaseCoverView.swift */,
+				4E35A76E2C0B89940080D329 /* RealiteaseLoserView.swift */,
+				4E35A76C2C0B897C0080D329 /* RealiteaseWinnerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4E3C97432BED4A3000CC6354 = {
 			isa = PBXGroup;
 			children = (
 				4E3C974E2BED4A3000CC6354 /* TRR-Project */,
 				4E3C974D2BED4A3000CC6354 /* Products */,
+				4E63CE112BEE822700A6508B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +215,17 @@
 		4E3C974E2BED4A3000CC6354 /* TRR-Project */ = {
 			isa = PBXGroup;
 			children = (
+				4E3C97932BED57EA00CC6354 /* Info.plist */,
+				4E3C976D2BED57C800CC6354 /* FONTS */,
 				4E3C974F2BED4A3000CC6354 /* TRR_ProjectApp.swift */,
+				4E73DD392BFBDEC1004F68A7 /* Utils.swift */,
+				4EB18EC22BEE8F9B00252980 /* Firestore */,
+				4E3C976A2BED533800CC6354 /* Authetication */,
+				4E1ED86E2BEDEA24004DE7D7 /* Main */,
+				4E73DD3B2BFBED17004F68A7 /* TMDb */,
 				4E3C97512BED4A3000CC6354 /* ContentView.swift */,
 				4E3C97532BED4A3200CC6354 /* Assets.xcassets */,
+				4E1ED85A2BED7314004DE7D7 /* GoogleService-Info.plist */,
 				4E3C97552BED4A3200CC6354 /* Preview Content */,
 			);
 			path = "TRR-Project";
@@ -65,6 +237,91 @@
 				4E3C97562BED4A3200CC6354 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E3C976A2BED533800CC6354 /* Authetication */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C976B2BED534B00CC6354 /* AuthenticationView.swift */,
+				4E1ED8562BED679C004DE7D7 /* AuthenticationManager.swift */,
+				4E1ED8622BED89E6004DE7D7 /* AuthenticationViewModel.swift */,
+				4E1D60722BFD5F8300C10659 /* SignUpWithEmail */,
+				4EAFCD1F2BF1B0CC00A1DB49 /* ContinueSignUpView.swift */,
+				4E1ED8522BED601A004DE7D7 /* SignInEmailView.swift */,
+			);
+			path = Authetication;
+			sourceTree = "<group>";
+		};
+		4E3C976D2BED57C800CC6354 /* FONTS */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C97942BED5C6800CC6354 /* Boldstrom.otf */,
+				4E3C976E2BED57CE00CC6354 /* POPPINS */,
+			);
+			path = FONTS;
+			sourceTree = "<group>";
+		};
+		4E3C976E2BED57CE00CC6354 /* POPPINS */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C97752BED57DD00CC6354 /* Poppins-Black.ttf */,
+				4E3C977B2BED57DE00CC6354 /* Poppins-BlackItalic.ttf */,
+				4E3C97712BED57DD00CC6354 /* Poppins-Bold.ttf */,
+				4E3C97782BED57DD00CC6354 /* Poppins-BoldItalic.ttf */,
+				4E3C977C2BED57DE00CC6354 /* Poppins-ExtraBold.ttf */,
+				4E3C977E2BED57DE00CC6354 /* Poppins-ExtraBoldItalic.ttf */,
+				4E3C97732BED57DD00CC6354 /* Poppins-ExtraLight.ttf */,
+				4E3C97742BED57DD00CC6354 /* Poppins-ExtraLightItalic.ttf */,
+				4E3C97762BED57DD00CC6354 /* Poppins-Italic.ttf */,
+				4E3C97722BED57DD00CC6354 /* Poppins-Light.ttf */,
+				4E3C976F2BED57DD00CC6354 /* Poppins-LightItalic.ttf */,
+				4E3C97772BED57DD00CC6354 /* Poppins-Medium.ttf */,
+				4E3C97702BED57DD00CC6354 /* Poppins-MediumItalic.ttf */,
+				4E3C977F2BED57DE00CC6354 /* Poppins-Regular.ttf */,
+				4E3C977D2BED57DE00CC6354 /* Poppins-SemiBold.ttf */,
+				4E3C97792BED57DD00CC6354 /* Poppins-SemiBoldItalic.ttf */,
+				4E3C97802BED57DE00CC6354 /* Poppins-Thin.ttf */,
+				4E3C977A2BED57DD00CC6354 /* Poppins-ThinItalic.ttf */,
+			);
+			path = POPPINS;
+			sourceTree = "<group>";
+		};
+		4E63CE112BEE822700A6508B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E73DD3B2BFBED17004F68A7 /* TMDb */ = {
+			isa = PBXGroup;
+			children = (
+				4E73DD3C2BFBED55004F68A7 /* APIService.swift */,
+				4E73DD3E2BFBEDA4004F68A7 /* TVShowModel.swift */,
+				4E73DD442BFBFB03004F68A7 /* TMDbListModel.swift */,
+				4E73DD402BFBEDC0004F68A7 /* ShowViewModel.swift */,
+				4E73DD462BFBFB2A004F68A7 /* TMDbListViewModel.swift */,
+				4E73DD422BFBEDD0004F68A7 /* ShowView.swift */,
+			);
+			path = TMDb;
+			sourceTree = "<group>";
+		};
+		4EB18EBD2BEE840400252980 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				4ED1DBFD2BFE75C600EE3D0A /* ProfileView.swift */,
+				4E1ED86C2BEDDA21004DE7D7 /* SettingsView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		4EB18EC22BEE8F9B00252980 /* Firestore */ = {
+			isa = PBXGroup;
+			children = (
+				4EB18EC02BEE8F9600252980 /* UserManager.swift */,
+			);
+			name = Firestore;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +340,16 @@
 			dependencies = (
 			);
 			name = "TRR-Project";
+			packageProductDependencies = (
+				4E3C97602BED4E9B00CC6354 /* FirebaseAnalytics */,
+				4E3C97622BED4E9B00CC6354 /* FirebaseAnalyticsSwift */,
+				4E3C97642BED4E9B00CC6354 /* FirebaseAuth */,
+				4E3C97662BED4E9B00CC6354 /* FirebaseFirestore */,
+				4E3C97682BED4E9B00CC6354 /* FirebaseStorage */,
+				4E63CE122BEE822700A6508B /* FirebaseFirestoreCombine-Community */,
+				4E63CE142BEE822700A6508B /* FirebaseFirestoreSwift */,
+				4E1B5BBC2BF2E1C6004A4015 /* TMDBSwift */,
+			);
 			productName = "TRR-Project";
 			productReference = 4E3C974C2BED4A3000CC6354 /* TRR-Project.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +378,10 @@
 				Base,
 			);
 			mainGroup = 4E3C97432BED4A3000CC6354;
+			packageReferences = (
+				4E3C975F2BED4E9B00CC6354 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				4E1B5BBB2BF2E1C6004A4015 /* XCRemoteSwiftPackageReference "TheMovieDatabaseSwiftWrapper" */,
+			);
 			productRefGroup = 4E3C974D2BED4A3000CC6354 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +396,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E932AE02BFD7D22009D82FF /* Boldstrom.otf in Resources */,
+				4E3C97842BED57DE00CC6354 /* Poppins-Light.ttf in Resources */,
 				4E3C97572BED4A3200CC6354 /* Preview Assets.xcassets in Resources */,
+				4E3C978A2BED57DE00CC6354 /* Poppins-BoldItalic.ttf in Resources */,
+				4E3C978B2BED57DE00CC6354 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				4E3C97832BED57DE00CC6354 /* Poppins-Bold.ttf in Resources */,
+				4E3C97862BED57DE00CC6354 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				4E3C97872BED57DE00CC6354 /* Poppins-Black.ttf in Resources */,
 				4E3C97542BED4A3200CC6354 /* Assets.xcassets in Resources */,
+				4E3C97852BED57DE00CC6354 /* Poppins-ExtraLight.ttf in Resources */,
+				4E3C97882BED57DE00CC6354 /* Poppins-Italic.ttf in Resources */,
+				4E3C97892BED57DE00CC6354 /* Poppins-Medium.ttf in Resources */,
+				4E3C978D2BED57DE00CC6354 /* Poppins-BlackItalic.ttf in Resources */,
+				4E3C97902BED57DE00CC6354 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				4E3C978C2BED57DE00CC6354 /* Poppins-ThinItalic.ttf in Resources */,
+				4E3C97922BED57DE00CC6354 /* Poppins-Thin.ttf in Resources */,
+				4E3C978E2BED57DE00CC6354 /* Poppins-ExtraBold.ttf in Resources */,
+				4E3C978F2BED57DE00CC6354 /* Poppins-SemiBold.ttf in Resources */,
+				4E3C97812BED57DE00CC6354 /* Poppins-LightItalic.ttf in Resources */,
+				4E3C97822BED57DE00CC6354 /* Poppins-MediumItalic.ttf in Resources */,
+				4E3C97912BED57DE00CC6354 /* Poppins-Regular.ttf in Resources */,
+				4E1ED85B2BED7314004DE7D7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +428,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E73DD452BFBFB03004F68A7 /* TMDbListModel.swift in Sources */,
+				4E73DD3D2BFBED55004F68A7 /* APIService.swift in Sources */,
+				4E35A76D2C0B897C0080D329 /* RealiteaseWinnerView.swift in Sources */,
 				4E3C97522BED4A3000CC6354 /* ContentView.swift in Sources */,
+				4E73DD412BFBEDC0004F68A7 /* ShowViewModel.swift in Sources */,
 				4E3C97502BED4A3000CC6354 /* TRR_ProjectApp.swift in Sources */,
+				4E35A76F2C0B89940080D329 /* RealiteaseLoserView.swift in Sources */,
+				4E35A7692C0AC3AA0080D329 /* RealiteaseCoverView.swift in Sources */,
+				4E35A7672C0AC34D0080D329 /* RealiteaseGameView.swift in Sources */,
+				4E73DD432BFBEDD0004F68A7 /* ShowView.swift in Sources */,
+				4E1ED8552BED642C004DE7D7 /* SignUpEmailView.swift in Sources */,
+				4EB18EC12BEE8F9600252980 /* UserManager.swift in Sources */,
+				4E1ED8572BED679C004DE7D7 /* AuthenticationManager.swift in Sources */,
+				4E73DD472BFBFB2A004F68A7 /* TMDbListViewModel.swift in Sources */,
+				4E1ED8632BED89E6004DE7D7 /* AuthenticationViewModel.swift in Sources */,
+				4E35A7772C0BA0EB0080D329 /* RealiteaseManager.swift in Sources */,
+				4E35A75D2C0AB6610080D329 /* Games_HeaderView.swift in Sources */,
+				4EAFCD202BF1B0CC00A1DB49 /* ContinueSignUpView.swift in Sources */,
+				4E1ED8702BEDEA43004DE7D7 /* MainTabView.swift in Sources */,
+				4E1ED86D2BEDDA21004DE7D7 /* SettingsView.swift in Sources */,
+				4E1ED85F2BED8502004DE7D7 /* Shows_MainView.swift in Sources */,
+				4E35A75B2C0AA4B90080D329 /* Games_FooterView.swift in Sources */,
+				4EAFCD1E2BF185F000A1DB49 /* SignUpEmailViewModel.swift in Sources */,
+				4E3C976C2BED534B00CC6354 /* AuthenticationView.swift in Sources */,
+				4E1ED8532BED601A004DE7D7 /* SignInEmailView.swift in Sources */,
+				4E73DD3F2BFBEDA4004F68A7 /* TVShowModel.swift in Sources */,
+				4E932ADF2BFD6C8D009D82FF /* Games_MainView.swift in Sources */,
+				4E35A7732C0B9E040080D329 /* Realitease_GameLogic.swift in Sources */,
+				4ED1DBFE2BFE75C600EE3D0A /* ProfileView.swift in Sources */,
+				4E73DD3A2BFBDEC1004F68A7 /* Utils.swift in Sources */,
+				4E35A7712C0B9DDB0080D329 /* Realitease_FirestoreService.swift in Sources */,
+				4E35A7592C0A8C0B0080D329 /* Quizzes_MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +596,7 @@
 				DEVELOPMENT_TEAM = KVHGC3LY5C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TRR-Project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -285,7 +607,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "TheReality.Report.TRR-Project";
+				PRODUCT_BUNDLE_IDENTIFIER = "TheReality.Report.TRR-Project-May09";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -304,6 +626,7 @@
 				DEVELOPMENT_TEAM = KVHGC3LY5C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TRR-Project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,7 +637,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "TheReality.Report.TRR-Project";
+				PRODUCT_BUNDLE_IDENTIFIER = "TheReality.Report.TRR-Project-May09";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -344,6 +667,68 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4E1B5BBB2BF2E1C6004A4015 /* XCRemoteSwiftPackageReference "TheMovieDatabaseSwiftWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gkye/TheMovieDatabaseSwiftWrapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.0;
+			};
+		};
+		4E3C975F2BED4E9B00CC6354 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.25.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4E1B5BBC2BF2E1C6004A4015 /* TMDBSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E1B5BBB2BF2E1C6004A4015 /* XCRemoteSwiftPackageReference "TheMovieDatabaseSwiftWrapper" */;
+			productName = TMDBSwift;
+		};
+		4E3C97602BED4E9B00CC6354 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E3C975F2BED4E9B00CC6354 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		4E3C97622BED4E9B00CC6354 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E3C975F2BED4E9B00CC6354 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		4E3C97642BED4E9B00CC6354 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E3C975F2BED4E9B00CC6354 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		4E3C97662BED4E9B00CC6354 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E3C975F2BED4E9B00CC6354 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		4E3C97682BED4E9B00CC6354 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E3C975F2BED4E9B00CC6354 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		4E63CE122BEE822700A6508B /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E3C975F2BED4E9B00CC6354 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		4E63CE142BEE822700A6508B /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E3C975F2BED4E9B00CC6354 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4E3C97442BED4A3000CC6354 /* Project object */;
 }

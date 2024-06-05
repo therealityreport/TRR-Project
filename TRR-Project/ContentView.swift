@@ -8,17 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var authViewModel: AuthenticationViewModel
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Group {
+            if authViewModel.isRegistered {
+                MainTabView()
+            } else if authViewModel.isUserAuthenticated {
+                ContinueSignUpView()
+                    .environmentObject(authViewModel)
+            } else {
+                AuthenticationView()
+                    .environmentObject(authViewModel)
+            }
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView().environmentObject(AuthenticationViewModel())
+    }
 }
+
+
+
+
+

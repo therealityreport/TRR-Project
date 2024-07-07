@@ -1,32 +1,26 @@
-//
-//  SettingsView.swift
-//  TRR-Project
-//
-//  Created by thomas hulihan on 5/10/24.
-//
-
 import SwiftUI
 
 struct SettingsView: View {
     @EnvironmentObject var authViewModel: AuthenticationViewModel
     
     var body: some View {
-        NavigationView {
-            VStack(spacing: 20) {
-                Button("Reset Password") {
-                    // Placeholder for actual functionality
-                    print("Reset password tapped")
-                }
-
-                Button("Log Out") {
-                    authViewModel.signOut()
-                }
-                .foregroundColor(.red)
-
+        VStack(spacing: 20) {
+            Button(action: {
+                // Placeholder for actual functionality
+                print("Reset password tapped")
+            }) {
+                Text("Reset Password")
             }
-            .padding()
-            .navigationBarTitle("Settings", displayMode: .inline)
+
+            Button(action: {
+                authViewModel.signOut()
+            }) {
+                Text("Log Out")
+                    .foregroundColor(.red)
+            }
         }
+        .padding()
+        .navigationBarTitle("Settings", displayMode: .inline)
     }
 }
 
@@ -36,9 +30,3 @@ struct SettingsView_Previews: PreviewProvider {
         SettingsView().environmentObject(AuthenticationViewModel())
     }
 }
-
-
-
-
-
-
